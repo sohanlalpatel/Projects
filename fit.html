@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Fitness</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+           
+        </nav>
+    <div class="container">
+        <h1>Fitness Tracker</h1>
+        <div class="tracker">
+            
+            <p>Steps: <span id="steps">0</span></p>
+            <p>Calories Burned: <span id="calories">0</span></p>
+            <p>Distance: <span id="distance">0</span> km</p>
+            <button onclick="addStep()">Add Step</button>
+            <button onclick="reset()">Reset</button>
+        </div>
+    </div>
+    <!-- <img src="https://www.drscholls.com/wp-content/uploads/DS_Runner_Pain_Points_lo-res1-2048x1366.jpg"  > -->
+    <div class="container1">
+        <h1>Fitness Diet Suggestions</h1>
+        <div id="diet-suggestion">
+            <h2>Diet Suggestion</h2>
+            <p id="suggestion">Loading...</p>
+            <button id="newSuggestionBtn">Get New Suggestion</button>
+        </div>
+    </div>
+</section>
+<img src="https://www.drscholls.com/wp-content/uploads/DS_Runner_Pain_Points_lo-res1-2048x1366.jpg"  >
+    <script src="script.js"></script>
+</body>
+</html>
